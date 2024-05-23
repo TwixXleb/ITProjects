@@ -5,30 +5,18 @@
 ### Структура проекта
 
 Проект структурирован следующим образом:
-'''
+```
 project/
-├── bot/
-│   ├── __init__.py
-│   ├── bot.py
-│   ├── event_scheduler.py
-│   └── handlers.py
-├── data/
-│   ├── __init__.py
-│   ├── database.py
-│   └── html_parser.py
-├── config/
-│   ├── __init__.py
-│   ├── config.py
-│   └── logging_config.py
-├── tests/
-│   ├── __init__.py
-│   ├── test_bot.py
-│   └── test_database.py
-├── .gitignore
-├── README.md
-├── requirements.txt
-└── main.py
-'''
+├── .idea/		# Папка с конфигурационными файлами проекта для IDE
+│    ├──.gitignore           
+├── .venv/                 # Виртуальное окружение для проекта
+├── pycache/           # Папка с скомпилированными файлами Python
+├── bot.py                 # Основной файл с реализацией Telegram бота
+├── config.py              # Файл с конфигурационными данными
+├── main.py                # Главный файл для запуска проекта
+├── MySQLConnector.py      # Файл с реализацией подключения и работы с базой данных MySQL
+└── Parser.py		# Файл с реализацией парсера HTML
+```
 ### Функциональные требования
 
 1. Бот Telegram:
@@ -62,3 +50,31 @@ project/
   - logging для логирования событий.
 - База данных: MySQL
 - Виртуальное окружение: virtualenv или conda
+
+### Установка и запуск
+
+1. Клонирование репозитория:
+   ```
+   git clone https://github.com/TwixXleb/ITProjects.git
+   cd ITProjects
+   ```
+
+2. Создание виртуального окружения:
+   ```
+   python -m venv venv
+   source venv/bin/activate  # Для Windows: venv\Scripts\activate
+   ```
+
+3. Установка зависимостей:
+   ```
+   pip install -r requirements.txt
+   ```
+
+4. Настройка базы данных:
+   - Создайте базу данных MySQL и заполните конфигурационные данные в config/config.py.
+
+5. Запуск проекта:
+   ```
+   python main.py
+   ```
+
