@@ -1,0 +1,6 @@
+telebot==0.0.4
+beautifulsoup4==4.9.3
+pycurl==7.43.0.6
+certifi==2021.5.30
+schedule==0.6.0
+mysql-connector-python==8.0.23
