@@ -80,5 +80,5 @@ project/
    ```
 
 ###Гифка с примером работы проектом
-![Гифка с проектом]Img/ProgGif.gif
+ITProjects/Img/ProgGif.gif
 
