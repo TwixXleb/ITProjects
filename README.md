@@ -79,3 +79,6 @@ project/
    python main.py
    ```
 
+###Гифка с примером работы проектом
+![Гифка с проектом]Img/ProgGif.gif
+
