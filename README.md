@@ -80,5 +80,6 @@ project/
    ```
 
 ###Гифка с примером работы проектом
-ITProjects/Img/ProgGif.gif
+
+![Gif Project](https://github.com/TwixXleb/ITProjects/blob/main/Img/ProgGif.gif)
 
