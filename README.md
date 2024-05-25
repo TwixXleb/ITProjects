@@ -79,7 +79,11 @@ project/
    python main.py
    ```
 
-###Гифка с примером работы проектом
+### Гифка с примером работы проектом
 
 ![Gif Project](https://github.com/TwixXleb/ITProjects/blob/main/Img/ProgGif.gif)
+
+### Ссылка на доску
+
+[KuryagiTable](https://team-9zz0qfts6zno.atlassian.net/jira/software/projects/KUR/boards/2?atlOrigin=eyJpIjoiMTA4ZDg0ZThhYzFjNDYyMTkxN2Q5OTZhMmRlN2FmMjgiLCJwIjoiaiJ9)
 
